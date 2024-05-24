@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 export default function Display() {
     const [currentTime, setCurrentTime] = useState(new Date());
+    console.log(new Date())
 
     useEffect(() => {
         const timer = setInterval(() => {
